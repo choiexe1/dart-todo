@@ -35,7 +35,7 @@ class JsonFileDataSource<T> implements DataSource<String> {
   }
 
   Future<void> _reset() async {
-    final List<Map<String, dynamic>> origin = [
+    const List<Map<String, dynamic>> origin = [
       {
         "userId": 1,
         "id": 1,
