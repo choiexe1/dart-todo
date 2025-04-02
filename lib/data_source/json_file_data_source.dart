@@ -35,7 +35,7 @@ class JsonFileDataSource<T> implements DataSource<String> {
   }
 
   // TODO: test reset()
-  Future<void> reset() async {
+  Future<void> _reset() async {
     final List<Map<String, dynamic>> origin = [
       {
         "userId": 1,
@@ -76,4 +76,8 @@ class JsonFileDataSource<T> implements DataSource<String> {
 
     await save(origin);
   }
+}
+
+void main() {
+  JsonFileDataSource('data/backup.dat')._reset();
 }
