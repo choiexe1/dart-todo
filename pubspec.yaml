@@ -1,7 +1,10 @@
 name: dart_todo
-description: A sample command-line application.
+description: A sample command-line todo application.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/choiexe1/dart-todo
+
+scripts:
+  reset: dart run lib/data_source/json_file_data_source.dart
 
 environment:
   sdk: ^3.7.0
