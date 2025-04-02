@@ -34,7 +34,6 @@ class JsonFileDataSource<T> implements DataSource<String> {
     return data.map((e) => e['id'] as int).reduce(max) + 1;
   }
 
-  // TODO: test reset()
   Future<void> _reset() async {
     final List<Map<String, dynamic>> origin = [
       {
