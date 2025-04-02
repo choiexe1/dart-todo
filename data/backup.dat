@@ -33,5 +33,12 @@
   "title": "인프런 강의 시청",
   "completed": false,
   "createdAt": "2025-04-02T07:20:00Z"
+ },
+ {
+  "id": 6,
+  "completed": false,
+  "title": "hi",
+  "createdAt": "2025-04-03T01:00:00.000",
+  "userId": 1
  }
 ]
