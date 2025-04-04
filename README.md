@@ -1,2 +1,8 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+## Entry Point
+
+- /bin/main.dart
+
+## Package
+
+- AutoInject
+  - Dependency injection 프레임워크
