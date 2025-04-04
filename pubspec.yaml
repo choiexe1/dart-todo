@@ -4,6 +4,7 @@ version: 1.0.0
 repository: https://github.com/choiexe1/dart-todo
 
 scripts:
+  test: dart test -r github && derry reset
   reset: dart run lib/data_source/json_file_data_source.dart
 
 environment:
@@ -11,6 +12,7 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
+  auto_injector: ^1.0.2
   # path: ^1.8.0
 
 dev_dependencies:

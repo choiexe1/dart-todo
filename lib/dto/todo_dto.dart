@@ -10,4 +10,10 @@ class TodoDTO {
     required this.createdAt,
     bool complete = false,
   }) : completed = complete;
+
+  TodoDTO.fromJson(Map<String, dynamic> json)
+    : userId = json['userId'],
+      title = json['title'],
+      completed = json['completed'],
+      createdAt = DateTime.parse(json['createdAt']);
 }

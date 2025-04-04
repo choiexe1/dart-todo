@@ -33,6 +33,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.13.0"
+  auto_injector:
+    dependency: "direct main"
+    description:
+      name: auto_injector
+      sha256: "2b0a076df2dd300ba3acfc270653f351fadf4d7889f042cd853f80ac83661af7"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.0"
   boolean_selector:
     dependency: transitive
     description:
